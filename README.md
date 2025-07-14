@@ -11,11 +11,15 @@
 - 顯示即時分數
 - 鍵盤控制操作流暢
 
-## 🛠️ 使用技術
+## 使用技術
 
 - 語言：C++
 - 函式庫：`ncurses.h`
 - 編譯器：`g++`
+### 安裝 ncurses（Linux/macOS）與編譯
 
-
+```bash
+sudo apt install libncurses5-dev    # Ubuntu / Debian
+brew install ncurses                # macOS
+g++ main.cpp -lncurses -o snake
 
