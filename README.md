@@ -4,10 +4,10 @@
 
 ## 功能特色
 
-- 終端畫面輸出（使用 `ncurses` 函式庫）
+- ![終端畫面輸出（使用 `ncurses` 函式庫）](./初始化面.png)
 - 蛇可上下左右移動
 - 吃藥物會使蛇長縮短
-- 撞牆或自撞即結束遊戲
+- ![撞牆或自撞即結束遊戲](./結果顯示.png)
 - 鍵盤控制蛇身移動
 
 ## 關於此遊戲
@@ -21,4 +21,5 @@
 sudo apt install libncurses5-dev    # Ubuntu / Debian
 brew install ncurses                # macOS
 g++ main.cpp -lncurses -o snake
+
 
