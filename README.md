@@ -13,8 +13,8 @@
 ## 關於此遊戲
 
 - 語言：C++
-- 函式庫：`ncurses.h`
-- 編譯器：`g++`
+- 函式庫：ncurses.h
+- 編譯器：g++
 ### 安裝 ncurses（Linux/macOS）與編譯
 
 ```bash
